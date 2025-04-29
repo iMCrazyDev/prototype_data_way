@@ -1,0 +1,31 @@
+# Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+venv/
+
+# Brownie build artifacts
+build/
+reports/
+
+# Pytest and Hypothesis
+.pytest_cache/
+.hypothesis/
+
+# Brownie project files
+*.log
+*.pid
+
+# Test outputs
+*.csv
+stress_stats.csv
+
+# IDE files (VS Code)
+.vscode/
+
+# System-specific
+.DS_Store
+Thumbs.db
